@@ -1,0 +1,43 @@
+.create-party-form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  div.input-element {
+    flex-basis: 50%;
+    input,
+    select {
+      width: 95%;
+      height: 30px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  > div.input-element-picker {
+    flex-basis: 50%;
+    > div > div {
+      width: 95%!important;
+    }
+  }
+  .tabs {
+    flex-basis: 100%;
+    .tab-content {
+      padding: 20px 0;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  }
+  .form-actions {
+    margin-top: 20px;
+    flex-basis: 100%;
+    display: flex;
+    button,
+    > div {
+      flex-basis: 50%;
+      margin-right: 15px!important;
+    }
+  }
+}

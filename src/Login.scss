@@ -1,0 +1,7 @@
+@import 'demo';
+
+.cookie {
+  color: blue;
+  @include border-radius(50px);
+  background: $color;
+}

@@ -1,0 +1,5 @@
+$color: red;
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
